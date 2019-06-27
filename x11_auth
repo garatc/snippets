@@ -1,0 +1,5 @@
+#Gathering info
+xwininfo -root -tree -display <IP>:0
+
+#Capturing screenshot
+xwd -root -screen -silent -display <IP>:0 > screenshot.xwd
